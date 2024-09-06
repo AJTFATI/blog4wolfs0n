@@ -42,7 +42,7 @@ jobs:
   deploy: jekyll-theme-jekflix
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://github.com/AJTFATI/blog4wolfs0n
     runs-on: ubuntu-latest
     needs: build
     steps:
